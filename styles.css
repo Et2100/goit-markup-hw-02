@@ -1,0 +1,85 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    font-size: 14px;
+    background-color: #fafafa;
+    line-height: 1.5;
+}
+.nav-list:focus {
+    color: #4d5ae5;
+}
+.hero-image {
+    color: #434455;
+    background-color: #2e2f42;
+}
+.page-title {
+    color: #ffffff;
+    font-size: 56px;
+    font-weight: bold;
+    /* font-family: */
+    text-align: center;
+    line-height: 60px;
+    letter-spacing: 2%;
+}
+
+.btn{
+    font-family: "Roboto", sans-serif;
+    font-weight: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    background-color: #404bbf;
+    color: #ffffff;
+    align-items: center;
+}
+button:hover {
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    /* background-color: #404bbf; */
+    background-color: #4d5ae5;
+    color: #ffffff;
+    align-items: center;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    /* font-family: "Oswald", sans-serif; */
+    text-align: center;
+    /* line-height: 1.333; */
+    letter-spacing: 2px;
+}
+/*
+.club-list .title {
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    line-height: 1.333;
+}
+
+h1, h2, h3{
+    font-family: 'Tah';
+}
+*/
+ul {
+    list-style-type: none;
+}
+
+.our-team {
+    background-color: #f4f4fd;
+}
+.page-footer {
+    background-color:  #2e2f42;
+    color: #ffffff;
+}
+.logo-web {
+    background-color: #404bbf;
+    color: #ffffff;
+}
+a:hover {
+    color: #4d5ae5; 
+}
