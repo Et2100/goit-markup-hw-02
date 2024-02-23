@@ -5,8 +5,63 @@ body {
     background-color: #fafafa;
     line-height: 1.5;
 }
-.nav-list:focus {
+.logo-link {
+    background-color: inherit;
+
+}
+.logo-web {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-transform:uppercase;
+    line-height: 21;
+    letter-spacing: 3%;
+    background-color: inherit;
+    color:#4d5ae5;
+}
+.logo-studio {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform:uppercase;
+    line-height: 21;
+    letter-spacing: 3%;
+    background-color: inherit;
+    color:#2e2f42; 
+}
+.foot-logo-web {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform:uppercase;
+    line-height: 21;
+    letter-spacing: 3%;
+    background-color: inherit;
+    color:#4d5ae5; 
+}
+.foot-logo-studio {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform:uppercase;
+    line-height: 21;
+    letter-spacing: 3%;
+    background-color: inherit;
+    color:#ffffff; 
+}
+.nav-list .link {
+    color:#2e2f42;
+}
+.nav-list .link:hover {
+    color: #404bbf
+}
+.nav-list .link:active {
     color: #4d5ae5;
+}
+.address-list .link {
+    color: #434455;
+}
+.address-list .link:hover {
+    color: #404bbf;
 }
 .hero-image {
     color: #434455;
@@ -23,7 +78,7 @@ body {
 }
 
 .btn{
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
     font-weight: Medium;
     font-size: 16px;
     line-height: 24px;
@@ -31,10 +86,12 @@ body {
     background-color: #404bbf;
     color: #ffffff;
     align-items: center;
+    cursor: auto;
+    cursor: pointer;
 }
 button:hover {
     background-color: #4d5ae5;
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
     font-weight: Medium;
     font-size: 16px;
     line-height: 24px;
@@ -60,10 +117,8 @@ button:hover {
     text-transform: uppercase;
     line-height: 1.333;
 }
-
-h1, h2, h3{
-    font-family: 'Tah';
-}
+*/
+h1, h2, h3, h4 ,h5{}
 */
 ul {
     list-style-type: none;
@@ -76,9 +131,8 @@ ul {
     background-color:  #2e2f42;
     color: #ffffff;
 }
-.logo-web {
-    background-color: #404bbf;
-    color: #ffffff;
+a{
+    text-decoration: none;
 }
 a:hover {
     color: #4d5ae5; 
