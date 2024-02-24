@@ -2,65 +2,67 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     font-size: 14px;
-    background-color: #fafafa;
+    background-color: #ffffff;
     line-height: 1.5;
 }
-.logo-link {
-    background-color: inherit;
-
-}
-.logo-web {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
+.nav-list {
+    /* font-family:"Raleway", sans-serif; */
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform:uppercase;
-    line-height: 1.3125;
-    letter-spacing: 3%;
+    background-color: inherit;
+    /* color:#4d5ae5;  */
+}
+.link-first {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
+.link-first:visited {
+    color:#404bbf;
+}
+/* .logo-link {  
+    background-color: inherit;
+}    
+*/
+.logo-web {
+font-family:"Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform:uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     background-color: inherit;
     color:#4d5ae5;
 }
+
 .logo-studio {
     font-family: "Raleway", sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     text-transform:uppercase;
-    line-height: 1.3125;
-    letter-spacing: 3%;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     background-color: inherit;
     color:#2e2f42; 
 }
-.foot-logo-web {
-    font-family: "Raleway", sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    text-transform:uppercase;
-    line-height: 1.3125;
-    letter-spacing: 3%;
-    background-color: inherit;
-    color:#4d5ae5; 
-}
-.foot-logo-studio {
-    font-family: "Raleway", sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    text-transform:uppercase;
-    line-height: 1.3125;
-    letter-spacing: 3%;
-    background-color: inherit;
-    color:#ffffff; 
-}
-.nav-list .link {
+.nav-list {
     color:#2e2f42;
+    font-family: inherit;
 }
-.nav-list .link:hover {
-    color: #404bbf
-}
-.nav-list .link:active {
+
+
+.nav-list a:focus {
     color: #4d5ae5;
 }
-.address-list .link {
+.address-list {
     color: #434455;
+    font-size: 16px;
+    letter-spacing: 0.02em;
 }
-.address-list .link:hover {
+.address-list a:hover .nav-list a:hover{
     color: #404bbf;
 }
 .hero-image {
@@ -73,37 +75,37 @@ body {
     font-weight: bold;
     /* font-family: */
     text-align: center;
-    line-height: 60px;
-    letter-spacing: 2%;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 .btn{
     /* font-family: "Roboto", sans-serif; */
-    font-weight: Medium;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 4%;
-    background-color: #404bbf;
+    letter-spacing: 0.04em;
+    background-color: #4d5ae5;
     color: #ffffff;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
     cursor: auto;
     cursor: pointer;
     margin: auto;
 }
-button:hover {
-    background-color: #4d5ae5;
-    /* font-family: "Roboto", sans-serif; */
-    font-weight: Medium;
+.btn:hover {
+    background-color: #404bbf;
+    /* font-family: "Roboto", sans-serif; 
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 4%;
-    /* background-color: #404bbf; */
-    background-color: #4d5ae5;
     color: #ffffff;
-    align-items: center;
+    /* align-items: center; */
 }
-
+.btn:active {
+    background-color: #404bbf;
+}
 .section-title {
     font-size: 36px;
     font-weight: bold;
@@ -138,9 +140,24 @@ ul {
     background-color:  #2e2f42;
     color: #ffffff;
 }
-a {
-    text-decoration: none;
+/*.foot-logo-web {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform:uppercase;
+    line-height: 1.3125;
+    letter-spacing: 3%;
+    background-color: inherit;
+    color:#4d5ae5; 
 }
-a:hover {
-    color: #4d5ae5; 
+*/
+footer span {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform:uppercase;
+    line-height: 1.3125;
+    letter-spacing: 3%;
+    background-color: inherit;
+    color:#f4f4fd; 
 }
