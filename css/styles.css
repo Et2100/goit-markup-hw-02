@@ -15,7 +15,7 @@ body {
     font-size: 18px;
     text-transform:uppercase;
     line-height: 1.17;
-    letter-spacing: 0.003em;
+    letter-spacing: 0.03em;
     background-color: inherit;
     color:#4d5ae5;
 }
@@ -25,7 +25,7 @@ body {
     font-size: 18px;
     text-transform:uppercase;
     line-height: 1.3125;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     background-color: inherit;
     color:#2e2f42; 
 }
@@ -45,7 +45,7 @@ body {
     font-size: 18px;
     text-transform:uppercase;
     line-height: 1.3125;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     background-color: inherit;
     color:#ffffff; 
 }
@@ -94,7 +94,7 @@ nav ul li:first-of-type:hover {
     letter-spacing: 0.02em;
 }
 
-.btn{
+.btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -115,7 +115,7 @@ nav ul li:first-of-type:hover {
     letter-spacing: 0.04em;
     color: #ffffff;
 }
-.btn:active {
+.btn:focus {
     background-color: #404bbf;
 }
 .our-team {
@@ -131,13 +131,10 @@ nav ul li:first-of-type:hover {
     text-transform: capitalize;
 }
 
-.title-two {
-    display: none;
-}
 .title-three {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     background-color: inherit;
     color: #2e2f42;
