@@ -2,19 +2,20 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     font-size: 14px;
-    background-color: #fafafa;
+    background-color: #ffffff;
     line-height: 1.5;
 }
 .logo-link {
     background-color: inherit;
 
 }
-.logo-web {
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
+    font-size: 18px;
     text-transform:uppercase;
-    line-height: 1.3125;
-    letter-spacing: 3%;
+    line-height: 1.17;
+    letter-spacing: 0.003em;
     background-color: inherit;
     color:#4d5ae5;
 }
@@ -28,13 +29,13 @@ body {
     background-color: inherit;
     color:#2e2f42; 
 }
-.foot-logo-web {
+.foot-logo{
     font-family: "Raleway", sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     text-transform:uppercase;
-    line-height: 1.3125;
-    letter-spacing: 3%;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     background-color: inherit;
     color:#4d5ae5; 
 }
@@ -48,6 +49,7 @@ body {
     background-color: inherit;
     color:#ffffff; 
 }
+
 .nav-list .link {
     color:#2e2f42;
 }
@@ -59,9 +61,25 @@ body {
 }
 .address-list .link {
     color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-.address-list .link:hover {
+.link-one:hover {
     color: #404bbf;
+}
+nav ul li:first-of-type {
+    font-weight: 500;
+    font-size: 16px;
+    color: #2e2f42;
+}
+nav ul li:first-of-type:hover {
+    font-weight: 500;
+    font-size: 16px;
+    color: #404bbf;
+}
+.address-list {
+    font-style: normal;
 }
 .hero-image {
     color: #434455;
@@ -71,19 +89,17 @@ body {
     color: #ffffff;
     font-size: 56px;
     font-weight: bold;
-    /* font-family: */
     text-align: center;
-    line-height: 60px;
-    letter-spacing: 2%;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 .btn{
-    /* font-family: "Roboto", sans-serif; */
-    font-weight: Medium;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 4%;
-    background-color: #404bbf;
+    letter-spacing: 0.04em;
+    background-color: #4d5ae5;
     color: #ffffff;
     align-items: center;
     text-align: center;
@@ -91,49 +107,53 @@ body {
     cursor: pointer;
     margin: auto;
 }
-button:hover {
-    background-color: #4d5ae5;
-    /* font-family: "Roboto", sans-serif; */
+.btn:hover {
+    background-color: #404bbf;
     font-weight: Medium;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 4%;
-    /* background-color: #404bbf; */
-    background-color: #4d5ae5;
+    letter-spacing: 0.04em;
     color: #ffffff;
-    align-items: center;
+}
+.btn:active {
+    background-color: #404bbf;
+}
+.our-team {
+    background-color: #f4f4fd;
 }
 
 .section-title {
     font-size: 36px;
-    font-weight: bold;
-    /* font-family: "Oswald", sans-serif; */
+    font-weight: 500;
     text-align: center;
-    /* line-height: 1.333; */
-    letter-spacing: 2px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
+
 .title-two {
     display: none;
 }
 .title-three {
-    font-weight: Medium;
+    font-weight: 500;
     font-size: 20px;
-    line-height: 1.5;
-    letter-spacing: 2%;
-    background-color: inherit 
-    color: #434455;
-    align-items: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    background-color: inherit;
+    color: #2e2f42;
 }
-
 /* h1, h2, h3, h4 ,h5{} */
 
 ul {
     list-style-type: none;
 }
-
-.our-team {
-    background-color: #f4f4fd;
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: inherit;
 }
+
 .page-footer {
     background-color:  #2e2f42;
     color: #ffffff;
