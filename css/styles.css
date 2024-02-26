@@ -125,8 +125,10 @@ nav ul li:focus {
     background-color: inherit;
     color: #2e2f42;
 }
-/* h1, h2, h3, h4 ,h5{} */
+.our-team-list {
+    background-color: #ffffff;
 
+}
 ul {
     list-style-type: none;
 }
@@ -134,7 +136,7 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: inherit;
+    color: #434455;
 }
 .page-footer {
     background-color:  #2e2f42;
